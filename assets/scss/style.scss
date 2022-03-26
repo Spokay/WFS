@@ -1,0 +1,41 @@
+/*Imports*/
+/*@import url();*/
+@import "../../assets/css/partial/variables";
+
+/* dart-sass/sass.bat assets/scss:assets/css --watch /
+
+
+
+/*------ /GLOBAL ------ */
+
+body{
+  background: url("../img/japan-2014618.jpg") no-repeat;
+  overflow: hidden;
+}
+.navbar{
+  height: 15vh;
+}
+.button-container{
+  height: 70vh;
+}
+.footer{
+  height: 15vh;
+  bottom: 0;
+}
+
+/* ------ HEADER ------ */
+/* ------ /HEADER ------ */
+#navbarSupportedContent
+{
+  flex: none;
+}
+/* ------ MAIN ------ */
+/* ------ /MAIN ------ */
+
+/* ------ FOOTER ------ */
+/* ------ /FOOTER ------ */
+
+
+.clear {
+  clear: both;
+}
